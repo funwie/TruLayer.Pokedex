@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TruLayer.Pokedex.Api</name>
+    </assembly>
+    <members>
+        <member name="M:TruLayer.Pokedex.Api.Controllers.PokemonController.GetPokemon(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves Pokemon information.
+            </summary>
+            <param name="pokemonName">The name of the pokemon</param>
+            <returns>Pokemon</returns>
+            <response code="200">Returns the pokemon</response>
+            <response code="404">Pokemon with name not found</response>
+        </member>
+        <member name="M:TruLayer.Pokedex.Api.Controllers.PokemonController.GetTranslatedPokemon(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves Pokemon information with translated description.
+            </summary>
+            <param name="pokemonName">The name of the pokemon</param>
+            <returns>TranslatedPokemon</returns>
+            <response code="200">Returns the translated pokemon</response>
+            <response code="404">Pokemon with name not found</response>
+        </member>
+    </members>
+</doc>

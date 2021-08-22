@@ -1,11 +1,13 @@
 ## Pokedex with Fun Translation
 A tool to get Pokemon information from external api and translate the pokemon description
 
-### Requires C# and .Net 5
-### Optional tools: Visual Studio or prefered IDE and Docker installed
-### Tested using Nunit and XUnit frameworks
+### Tools
+- Requires C# and .Net 5
+- Optional tools: Visual Studio or prefered IDE and Docker installed
+- Tested using Nunit and XUnit frameworks
 
 ### Running Application
+
 #### From Visual Studio or Rider
 - Open the solution
 - Set startup project to TruLayer.Pokedex.Api
@@ -13,7 +15,7 @@ A tool to get Pokemon information from external api and translate the pokemon de
 - Debug the application.
 - Use the Swagger UI to try out the api
 
-### Terminal 
+#### Terminal 
 - Open the solution folder in a terminal
 - Run `dotnet run --project src/TruLayer.Pokedex.Api/TruLayer.Pokedex.Api.csproj`
 
@@ -28,7 +30,7 @@ A tool to get Pokemon information from external api and translate the pokemon de
 - Open the solution in VS and run all tests
 - OR open the solution folder in terminal and run `dotnet test`
 
-#### Improvements
+### Improvements
 - Add unit tests for more test cases
 - Handle exceptions better depending on the requirements
 - Additional logger
